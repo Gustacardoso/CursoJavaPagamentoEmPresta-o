@@ -25,7 +25,7 @@ public class Program {
 		int number = sc.nextInt();
 		System.out.print("Date dd/MM/yyyy: ");
 		Date date = sdf.parse(sc.next());
-		System.out.print("Contract valeu: ");
+		System.out.print("Contract valeu: (informe o valor da prestação)");
 		double totalValue = sc.nextDouble();
 		
 		// agora vamos mandar os atributos para o contruct da classe
